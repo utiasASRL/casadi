@@ -472,11 +472,11 @@ namespace std {
     return stream;
   }
 
-  template<typename T1, typename T2>
-  ostream& operator<<(ostream& stream, const pair<T1, T2>& p) {
-    stream << casadi::str(p);
-    return stream;
-  }
+  // template<typename T1, typename T2>
+  // ostream& operator<<(ostream& stream, const pair<T1, T2>& p) {
+  //   stream << casadi::str(p);
+  //   return stream;
+  // }
 
   template<typename T1, typename T2>
   ostream& operator<<(ostream& stream, const std::map<T1, T2>& p) {
